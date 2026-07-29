@@ -19,3 +19,9 @@ a {
 .header__bottom img {
     max-width: 20%;
 }
+
+.text {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
