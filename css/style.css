@@ -15,6 +15,7 @@ a {
     justify-content:space-between;
     align-items: center;
     padding: 10px;
+    background-image: url(/images/minecraft_стена.jpg)
 }
 
 .logo {
@@ -46,3 +47,11 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+body {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
