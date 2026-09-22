@@ -27,6 +27,14 @@ a {
     background-image: url(/images/minecraft_стена.jpg)
 }
 
+.header__top {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    padding: 10px;
+    word-spacing: -5px;
+}
+
 .logo {
     max-width: 250px;
 }
@@ -55,16 +63,25 @@ a {
     transition: transform 0.5s;
 }
 
-.link-other-page:hover .link-other-page__img {
-    transform: scale(0.8) translate(-60%, -60%);
-    filter: drop-shadow(0 0 5px green);
-}
-
 .link-other-page__text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: transform 0.5s;
+}
+
+
+
+@media (hover: hover) {
+    .link-other-page:hover .link-other-page__img {
+        transform: scale(0.8) translate(-60%, -60%);
+        filter: drop-shadow(0 0 5px rgb(0, 142, 0));
+    }
+    .link-other-page:hover .link-other-page__text {
+        transform: scale(1.2) translate(-40%, -40%);
+        filter: drop-shadow(0 0 5px rgb(0, 255, 0));
+    }
 }
 
 
