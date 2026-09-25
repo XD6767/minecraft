@@ -24,7 +24,7 @@ a {
 }
 
 .header__bottom {
-    background-image: url(/images/minecraft_стена.jpg)
+    background-image: url(/images/minecraft_стена.jpg);
 }
 
 .header__top {
@@ -83,6 +83,31 @@ a {
         filter: drop-shadow(0 0 5px rgb(0, 255, 0));
     }
 }
+/* =========================== MAIN ================================ */
 
+.main {
+    padding-top: 50px;
+}
 
+.hero {
+    background-image: url(/images/minecraft_деревня.jpg);
+    height: 70vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.hero__description {
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-shadow: 3px 3px 6px black;
+}
+
+.hero__title {
+    text-align: center;
+    margin-bottom: 10px;
+}
