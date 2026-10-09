@@ -24,7 +24,7 @@ a {
 }
 
 .header__bottom {
-    background-image: url(./images/minecraft_стена.jpg);
+    background-image: url(../images/minecraft_стена.jpg);
 }
 
 .header__top {
@@ -80,7 +80,7 @@ a {
 }
 
 .hero {
-    background-image: url(./images/minecraft_деревня.jpg);
+    background-image: url(../images/minecraft_деревня.jpg);
     height: 70vh;
     position: relative;
     background-size: cover;
