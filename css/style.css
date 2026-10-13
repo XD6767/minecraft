@@ -157,6 +157,20 @@ a {
     fill: black;
 }
 
+/* ============================================= */
+
+.slider-about {
+    
+}
+
+.slider-about__slide {
+
+}
+
+.slider-about__text {
+
+}
+
 @media (hover: hover) {
     .link-other-page:hover .link-other-page__img {
         transform: scale(0.8) translate(-60%, -60%);
