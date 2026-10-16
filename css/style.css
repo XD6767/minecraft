@@ -177,18 +177,19 @@ a {
     background-size: cover;
     background-position: center;
     position: relative;
+    padding: 20px;
 }
 .slider-about__slide--1 {
     background-image: url(../images/minecraft_пейзаж.webp);
 }
 .slider-about__slide--2 {
-    background-image: url(../images/minecraft_скелет.png);
-}
-.slider-about__slide--3 {
     background-image: url(../images/minecraft_миры.webp);
 }
-.slider-about__slide--4 {
+.slider-about__slide--3 {
     background-image: url(../images/minecraft_пещера.webp);
+}
+.slider-about__slide--4 {
+    background-image: url(../images/minecraft_скелет.png);
 }
 .slider-about__slide--5 {
     background-image: url(../images/minecraft_фон.webp);
@@ -201,6 +202,7 @@ a {
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
 @media (hover: hover) {
