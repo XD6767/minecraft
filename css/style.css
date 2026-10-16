@@ -160,15 +160,47 @@ a {
 /* ============================================= */
 
 .slider-about {
-    
+    background-color: #27a7e7;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
 }
 
 .slider-about__slide {
-
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.slider-about__slide--1 {
+    background-image: url(../images/minecraft_пейзаж.webp);
+}
+.slider-about__slide--2 {
+    background-image: url(../images/minecraft_скелет.png);
+}
+.slider-about__slide--3 {
+    background-image: url(../images/minecraft_миры.webp);
+}
+.slider-about__slide--4 {
+    background-image: url(../images/minecraft_пещера.webp);
+}
+.slider-about__slide--5 {
+    background-image: url(../images/minecraft_фон.webp);
 }
 
 .slider-about__text {
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
 }
 
 @media (hover: hover) {
