@@ -162,6 +162,8 @@ a {
 .slider-about {
     background-color: #27a7e7;
     position: relative;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .slick-list {
@@ -172,15 +174,42 @@ a {
     display: flex;
 }
 
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+    font-size: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.slick-prev {
+    left: -50px;
+}
+
+.slick-next {
+    right: -50px;
+}
+
 .slick-dots {
     position: absolute;
     left: 50%;
     display: flex;
     transform: translateX(-50%);
+    gap: 5px;
 }
 
-.slick-dots li {
+.slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: none;
+}
 
+.slick-active button {
+    background-color: green;
 }
 
 .slider-about__slide {
@@ -237,6 +266,10 @@ a {
     .social-link:hover .social-link__icon--youtube {
         filter: drop-shadow(0 0 5px #fff);
         fill: #c4302b;
+    }
+    .slick-dots button:hover {
+        background-color: rgb(92, 214, 92);
+        cursor: pointer;
     }
 }
 
