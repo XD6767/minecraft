@@ -1,5 +1,8 @@
 body {
-    background-color: rgb(156, 199, 153);
+    background-image: url(../images/фон.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
@@ -121,10 +124,10 @@ a {
 	padding: 0;
 	height: 5px;
 	border: none;
-	background: linear-gradient(to right, transparent 50%, #b7ffa3 50%), 
-				linear-gradient(to right, rgb(126, 198, 98), rgb(63, 138, 68));
+	background: linear-gradient(to right, transparent 50%, #b0b5af 50%), 
+				linear-gradient(to right, rgb(124, 133, 121), rgb(95, 107, 96));
 	background-size: 26px 2px, 100% 2px;
-    filter: drop-shadow(0 5px 5px rgb(57, 195, 57));
+    filter: drop-shadow(0 5px 5px rgb(0, 0, 0));
 }
 
 .footer__wraper {
@@ -180,8 +183,22 @@ a {
     z-index: 2;
     transform: translateY(-50%);
     font-size: 0;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    border: transparent;
+}
+
+.slick-arrow svg {
+    fill: rgb(135, 151, 135);
+    transition: fill 0.3s;
     width: 30px;
     height: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .slick-prev {
@@ -202,9 +219,9 @@ a {
 
 .slick-dots button {
     font-size: 0;
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
     border: none;
 }
 
@@ -268,7 +285,11 @@ a {
         fill: #c4302b;
     }
     .slick-dots button:hover {
-        background-color: rgb(92, 214, 92);
+        background-color: rgb(135, 151, 135);
+        cursor: pointer;
+    }
+    .slick-arrow:hover svg {
+        fill: rgb(92, 214, 92);
         cursor: pointer;
     }
 }
