@@ -312,4 +312,11 @@ a {
         justify-content: space-around;
         width: 100%;
     }
+    .slick-arrow {
+        display: none;
+    }
+    .slider-about__text {
+        font-size: 14px;
+        line-height: 1.3;
+    }
 }
