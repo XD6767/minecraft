@@ -5,5 +5,13 @@ function createImg() {
     img.classList.add('screamer-img')
 }
 
+function createSound() {
+    const sound = new Audio('../sounds/screamer.mp3')
+    sound.play()
+}
+
 const card = document.getElementById('card')
-card.addEventListener('click', createImg)
+card.addEventListener('click', ()=> {
+    createImg()
+    createSound()
+})
